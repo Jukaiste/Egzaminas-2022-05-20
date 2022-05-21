@@ -25,15 +25,24 @@ carsList.forEach((car) => {
 
     const carBrand = document.createElement('div');
     carBrand.innerText = car.brand;
-    carBrand.style.fontSize = '1.5rem';
+    carBrand.style.fontSize = '2rem';
     carBrand.style.color = 'blue';
     carBrand.style.margin = '1rem';
+    
 
 
 
     const carModels = document.createElement('div');
     carModels.innerText = car.models;
     carModels.style.margin = '0 1.5rem';
+    carModels.style.wordBreak = 'break-word';
+    carModels.style.backgroundColor = 'yellow';
+    carModels.style.border = '1px solid yellow';
+    carModels.style.borderRadius = '1rem'
+    carModels.style.padding = '2rem';
+   
+
+
    
 
 
