@@ -17,10 +17,13 @@ class Movie {
         this.budget = budget;
     }
     wasExpensive() {
-        return this.budget > 100000000 ? true : false;
+        if(this.budget > 100000000) {
+            return true;
+        } else { return false };
 }
 }
 
 const addMovie = new Movie('Ekskursante', 'Audrius Juzenas', 800000);
 
 console.log(addMovie);
+console.log(addMovie.wasExpensive());
