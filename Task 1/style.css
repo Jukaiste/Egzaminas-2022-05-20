@@ -63,3 +63,12 @@ form {
     font-size: 2em;
   }
 }
+
+
+#value-pounds, #value-grams, #value-ounce {
+  font-size: 1.5rem;
+  margin: 1rem;
+  text-align: center;
+  font-weight: bold;
+}
+
