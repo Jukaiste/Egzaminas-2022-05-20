@@ -30,7 +30,7 @@ const userListContainer = document.getElementById('output');
 usersList.forEach((user) => {
     const userId = document.createElement('div');
     userId.innerText = user.login;
-
+    
     const userAvatar = document.createElement('img');
     userAvatar.src = user.avatar_url;
     userAvatar.style.width = '8rem'
